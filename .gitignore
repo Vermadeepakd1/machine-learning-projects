@@ -1,0 +1,54 @@
+# Ignore Python virtual environments
+.venv/
+venv/
+ENV/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore data and submission files
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.h5
+*.db
+*.sqlite
+*.parquet
+*.feather
+*.zip
+*.tar.gz
+*.pickle
+*.joblib
+*.npy
+*.npz
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and outputs
+*.log
+*.out
+*.tmp
+
+# Ignore environment and IDE files
+.env
+.env.*
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore build and dist folders
+build/
+dist/
+*.egg-info/
+
+.gitignore
